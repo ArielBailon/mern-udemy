@@ -18,5 +18,3 @@ const connectDB = async ()=> {
 }
 
 module.exports = connectDB;
-const config = require('config');
-const db = config.get('mongoURI');
